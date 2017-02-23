@@ -46,27 +46,38 @@
         <section class="row mad_billeder">
 
             <!--FORRET 1-->
-            <div class="ret1 col-md-3 col-xs-12"><img src="billeder/baltiskbondesuppe-sm.jpg" alt="streg">
+            <template id="produkt_template">
+                <div class="ret1 col-md-3 col-xs-12"><img class="data_billede" src="billeder/baltiskbondesuppe-sm.jpg" alt="streg">
+                    <h4 class="data_navn">DATA_NAVN</h4>
+                    <h5 class="pris">DKK <span class="data_pris">DATA_PRIS</span></h5>
+                    <!-- Todo: sæt udsolgt class ved udsolgt
+                sæt rabat class ved rabat-->
+                    <h5 class="rabatpris">DKK <span class="data_rabatpris">DATA_RABATPRIS</span></h5>
+                    <!-- Skal kun vises ved rabat -->
+                    <h4 class="udsolgttekst">Denne ret er desværre udsolgt</h4>
+                    <!-- Skal kun vises ved udsolgte produkter -->
 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_1">
-                    <b>BALTISK BONDESUPPE</b>
-                    <br> DKK 79
-                    <br> <i>- læs mere om retten</i>
-                </button>
-            </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_1">
+                        <i>- læs mere om retten</i>
+                    </button>
+                </div>
+            </template>
 
 
 
             <!--FORRET 2-->
 
 
-            <div class="ret1 col-md-3"><img src="billeder/caviarbruschetta-sm.jpg" alt="streg">
+            <div class="ret1 col-md-3"><img class="data_billede" src="billeder/caviarbruschetta-sm.jpg" alt="streg">
+                <h4 class="data_navn">CAVIAR BRUSCHETTA</h4>
+                <h5 class="udsolgt">DKK 49</h5>
+                <h4 class="udsolgttekst">Denne ret er desværre udsolgt</h4>
+
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_2">
-                    <b>CAVIAR BRUSCHETTA</b>
-                    <br> DKK 49
-                    <br> <i>- læs mere om retten</i>
+
+                    <i>- læs mere om retten</i>
                 </button>
             </div>
 
@@ -74,24 +85,27 @@
 
             <!--FORRET 3-->
 
-            <div class="ret1 col-md-3"><img src="billeder/kaalsuppe-sm.jpg" alt="streg">
+            <div class="ret1 col-md-3"><img class="data_billede" src="billeder/kaalsuppe-sm.jpg" alt="streg">
+                <h4 class="data_navn">ØSTSIBIRISK KÅLSUPPE</h4>
+                <h5 class="rabat">DKK 79</h5>
+                <h5 class="rabatpris">DKK 61</h5>
+
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_3">
-                    <b>ØSTSIBIRISK KÅLSUPPE</b>
-                    <br> DKK 79
-                    <br> <i>- læs mere om retten</i>
+                    <i>- læs mere om retten</i>
                 </button>
             </div>
 
 
             <!--FORRET 4-->
 
-            <div class="ret1 col-md-3"><img src="billeder/rodbede-cabanossi-sm.jpg" alt="streg">
+            <div class="ret1 col-md-3"><img class="data_billede" src="billeder/rodbede-cabanossi-sm.jpg" alt="streg">
+                <h4 class="data_navn">RØDBEDE CABANOSSI</h4>
+                <h5>DKK 49</h5>
+
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_4">
-                    <b>RØDBEDE CABANOSSI</b>
-                    <br> DKK 49
-                    <br> <i>- læs mere om retten</i>
+                    <i>- læs mere om retten</i>
                 </button>
             </div>
 
