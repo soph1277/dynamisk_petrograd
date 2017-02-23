@@ -43,7 +43,8 @@
                 <h2><i>FORRETTER</i></h2></div>
         </section>
 
-        <section class="row mad_billeder">
+        <section class="row produktliste">
+            <!--her skal produkter lægges ind-->
 
             <!--FORRET 1-->
             <template id="produkt_template">
@@ -66,48 +67,9 @@
 
 
 
-            <!--FORRET 2-->
-
-
-            <div class="ret1 col-md-3"><img class="data_billede" src="billeder/caviarbruschetta-sm.jpg" alt="streg">
-                <h4 class="data_navn">CAVIAR BRUSCHETTA</h4>
-                <h5 class="udsolgt">DKK 49</h5>
-                <h4 class="udsolgttekst">Denne ret er desværre udsolgt</h4>
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_2">
-
-                    <i>- læs mere om retten</i>
-                </button>
-            </div>
 
 
 
-            <!--FORRET 3-->
-
-            <div class="ret1 col-md-3"><img class="data_billede" src="billeder/kaalsuppe-sm.jpg" alt="streg">
-                <h4 class="data_navn">ØSTSIBIRISK KÅLSUPPE</h4>
-                <h5 class="rabat">DKK 79</h5>
-                <h5 class="rabatpris">DKK 61</h5>
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_3">
-                    <i>- læs mere om retten</i>
-                </button>
-            </div>
-
-
-            <!--FORRET 4-->
-
-            <div class="ret1 col-md-3"><img class="data_billede" src="billeder/rodbede-cabanossi-sm.jpg" alt="streg">
-                <h4 class="data_navn">RØDBEDE CABANOSSI</h4>
-                <h5>DKK 49</h5>
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary col-md-12 col-xs-12" data-toggle="modal" data-target="#forret_4">
-                    <i>- læs mere om retten</i>
-                </button>
-            </div>
 
 
         </section>
@@ -217,17 +179,19 @@
     </section>
 
 
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
     <script>
         $('#myModal').on('shown.bs.modal', function() {
             $('#myInput').focus()
         })
 
     </script>
-    <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/petrograd.js"></script>
 
 </body>
 
