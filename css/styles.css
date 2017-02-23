@@ -1,0 +1,54 @@
+/*!
+ * Custom styles af DIG
+ */
+
+
+/*Generelt*/
+
+body {
+    background-color: #F3F3F3
+}
+img {
+    width: 100%;
+}
+
+/*NAV*/
+
+.nav {
+    border-bottom-style: groove
+}
+.menu_retter {
+    margin-top: 4vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu_retter:hover {
+    color: firebrick;
+}
+
+/*FORRETTER*/
+
+.overskrift_forretter {
+    text-align: center;
+    border-bottom-style: double;
+    margin-top: 4vw;
+}
+.mad_billeder {
+    margin-top: 3vw;
+}
+.btn {
+    background-color: slategrey;
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 3vw;
+}
+
+/*HOVEDRETTER*/
+
+
+/*DESSERTER*/
+
+
+/*DRIKKEVARER*/
+
+
+/*SIDEORDERS*/
