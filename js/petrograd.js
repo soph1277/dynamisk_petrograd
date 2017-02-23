@@ -43,6 +43,18 @@ function visProdukt(produkt) {
         klon.querySelector(".pris").classList.add("udsolgt");
     }
 
+    if (produkt.udsolgt == true || produkt.rabatsats == 0) {
+        //Der er ikke rabat, rabatprisen skal fjernes
+
+        var rabatpris = klon.querySelector(".rabatpris");
+        rabatpris.parentNode.removeChild(rabatpris);
+
+    } else {
+        klon.querySelector(".pris").classList.add("rabat");
+    }
+
+
+
     // append klon til .produkt_liste
     document.querySelector(".produktliste").appendChild(klon);
 
